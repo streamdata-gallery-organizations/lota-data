@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Lota Data",
+	"description": "This is a repository of lota data APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/lota-data.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://lota-data.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Lota Data",
+			"x-api-slug": "lota-data",
+			"description": "",
+			"image": "",
+			"humanURL": "http://lotadata.com",
+			"baseURL": "https://api2.lotadata.com//v2",
+			"tags": "Lota Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/lota-data/master/_listings/lota-data/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Lota Data",
+	"include": [
+		{
+			"name": "Lota Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/lota-data/master/_listings/lota-data/apis.yaml"
+		}
+	]
+}
